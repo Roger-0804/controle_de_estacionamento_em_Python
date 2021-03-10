@@ -1,0 +1,5 @@
+a=float(input('Digite o valor do etanol:'))
+g=float(input('Digite o valor da gasolina:'))
+d=(a/g)
+if d<=0.7:print('Abasteça com etanol, diferença de {:.1f}'.format(d))
+else :print('Abasteça com gasolina , diferença de {:.1f}'.format(d))

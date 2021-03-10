@@ -1,0 +1,6 @@
+print('-'*20,'localiza','-'*20)
+aluguel=int(input('*Por quantos dias você quer alugar?'))
+km=float(input('*Qual a Km que você vai percorrer?'))
+total=(aluguel*60)+(km*0.15)
+print('O valor a ser pago será de R$ {:.2f}'.format(total))
+print('-'*50)
